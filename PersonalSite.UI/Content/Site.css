@@ -1,6 +1,8 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: #2E3141;
+    color: white !important;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -20,10 +22,29 @@
 input,
 select,
 textarea {
-    max-width: 280px;
+    margin: auto;
+    
 }
 
 
-#card{
+.card {
     border: 15px;
+    background-color: #55595C !important;
 }
+
+ul, li, a{
+    color: white !important;
+}
+
+div #form-group{
+    text-align: center !important;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], select, textarea {
+    width: 100% !important;
+}
+
+textarea.form-control {
+    width: 100% !important;
+}
+
